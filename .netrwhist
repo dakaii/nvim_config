@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/daiki/.tmux'
 let g:netrw_dirhist_2='/Users/daiki/.anyenv'
+let g:netrw_dirhist_3='/Users/daiki/Workspace/golang/cache-server-go/src'
+let g:netrw_dirhist_4='/Users/daiki/Workspace/golang/cache-server-go/src/github.com'
+let g:netrw_dirhist_5='/Users/daiki/Workspace/golang/cache-server-go/src'
+let g:netrw_dirhist_6='/Users/daiki/Workspace/udacity/introToInferentialStatistics/lesson7/mean_and_sd.py'
+let g:netrw_dirhist_7='/Users/daiki/Workspace/udacity/introToInferentialStatistics'

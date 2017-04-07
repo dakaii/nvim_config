@@ -4,7 +4,6 @@ Plug 'fatih/vim-go'
 Plug 'tomasr/molokai'
 Plug 'ekalinin/Dockerfile.vim'
 
-
 call plug#end()
 
 set ruler
@@ -17,7 +16,6 @@ colorscheme molokai
 let g:molokai_original = 1
 highlight Normal ctermfg=white ctermbg=black
 highlight LineNr ctermfg=yellow ctermbg=black
-
 
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
@@ -38,4 +36,5 @@ endfunction
 
 vnoremap <silent> y y:call ClipboardYank()<cr>
 vnoremap <silent> d d:call ClipboardYank()<cr>
-nnoremap <silent> p :call ClipboardPaste()<cr>p
+nnoremap <silent> p :call ClipboardPaste()<cr>
+
